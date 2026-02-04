@@ -1,0 +1,32 @@
+#header {
+  & .container {
+    margin-inline: auto;
+
+    flex-direction: column;
+    justify-items: center;
+    gap: 3.875rem;
+
+    & #logo {
+      margin-top: 1.5625rem;
+      align-self: center;
+    }
+
+    & #back {
+      align-items: center;
+
+      font-weight: var(--fw-medium);
+      font-size: var(--fs-link);
+      line-height: var(--lh-link);
+      font-family: var(--ff-inter);
+      color: var(--color-brand);
+    }
+  }
+}
+
+@media (width <= 390px) {
+  #header {
+    & #back {
+      margin-top: 4.875rem;
+    }
+  }
+}
