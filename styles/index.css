@@ -2,3 +2,7 @@
 @import url("./variables.css");
 @import url("./utility.css");
 @import url("./sections/sections.css");
+
+body {
+  background-color: var(--background-primary);
+}

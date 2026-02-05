@@ -16,7 +16,6 @@
 
     & .form-bottom {
       width: 100%;
-      height: 2.75rem;
 
       & #newItem {
         flex-grow: 3;
@@ -58,6 +57,7 @@
 
         &:hover {
           background-color: var(--color-brand-hover);
+          cursor: pointer;
         }
       }
     }

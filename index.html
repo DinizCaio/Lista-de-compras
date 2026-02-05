@@ -39,12 +39,63 @@
             required
           />
 
-          <button type="button" id="addButton" class="btn">
+          <button type="submit" id="addButton" class="btn">
             Adicionar item
           </button>
         </div>
       </div>
     </form>
+
+    <ul role="list" id="list" class="container flex">
+      <li id="listItem0" class="listItem flex">
+        <input type="checkbox" name="" id="listInput0" />
+
+        <span>Pão de forma</span>
+
+        <img src="./assets/icons/delete.svg" alt="Ícone de deletar item" />
+      </li>
+
+      <li id="listItem1" class="listItem flex">
+        <input type="checkbox" name="" id="listInput1" />
+
+        <span>Café preto</span>
+
+        <img src="./assets/icons/delete.svg" alt="Ícone de deletar item" />
+      </li>
+
+      <li id="listItem2" class="listItem flex">
+        <input type="checkbox" name="" id="listInput2" />
+
+        <span>Suco de laranja</span>
+
+        <img src="./assets/icons/delete.svg" alt="Ícone de deletar item" />
+      </li>
+
+      <li id="listItem3" class="listItem flex">
+        <input type="checkbox" name="" id="listInput3" />
+
+        <span>Bolacha</span>
+
+        <img src="./assets/icons/delete.svg" alt="Ícone de deletar item" />
+      </li>
+    </ul>
+
+    <div class="container alert-toggle gap-0.5 flex" id="alert">
+      <img
+        src="./assets/icons/alert.svg"
+        alt="Ícone de alerta"
+        id="alertIcon"
+      />
+
+      <span> O item foi removido da lista. </span>
+
+      <img
+        src="./assets/icons/close.svg"
+        alt="Ícone de fechar"
+        class="closeBtn"
+      />
+    </div>
+
     <script src="scripts/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,30 @@
+#alert {
+  margin-inline: auto;
+  margin-top: 2.25rem;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--color-danger);
+
+  & span {
+    margin-right: auto;
+
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-label);
+    line-height: var(--lh-label);
+    font-family: var(--ff-inter);
+    color: var(--always-white);
+  }
+
+  & .closeBtn {
+    cursor: pointer;
+    object-fit: cover;
+  }
+
+  &.alert-toggle {
+    display: none;
+  }
+}
